@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch a Sketch</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Allerta+Stencil&family=Bitcount+Grid+Single:wght@100..900&family=Bungee+Spice&family=Darumadrop+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <div>ETCH A SKTECH</div>
+    </section>
+    <section class="user-input">
+      <button class="adjust">CHANGE GRID MATRIX</button>
+      <p>OR</p>
+      <button class="play">PLAY</button>
+    </section>
+    <section class="popup disabled">
+      <button class="close-button">
+        <div class="close-button-text">x</div>
+      </button>
+      <div class="popup-header">ENTER THE NUMBER OF SQUARES IN SKETCH-GRID</div>
+
+      <input
+        class="grid-squares"
+        type="number"
+        placeholder="(ENTER 64 TO GET A 64x64 MATRIX)"
+      />
+
+      <button class="playpopup">LET'S GO SKETCHING</button>
+    </section>
+    <div class="grid-section">
+      <div class="commands">
+        <h1>SOME CONTROLS TO KNOW BEFORE PLAYING</h1>
+        <ul>
+          <li>Press <span>DEL</span> To Erase Drawing from the Drawing Pad</li>
+          <li>Press <span>CTRL</span> To Stop/Continue Drawing</li>
+          <li class="last">You Can Alternatively Use Buttons As Well</li>
+        </ul>
+      </div>
+      <section class="container"></section>
+    </div>
+  </body>
+</html>
