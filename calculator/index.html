@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <section class="calculator-body">
+      <div class="calculator-display">
+        <div id="lower"><input class="calculator-input" /></div>
+      </div>
+      <div class="calculator-buttons-row">
+        <button id="clear" class="calculator-button c">AC</button>
+        <button id="divide" value="/" class="calculator-button operator">
+          ÷
+        </button>
+        <button id="backspace" class="calculator-button">DEL ⌫</button>
+      </div>
+      <div class="calculator-buttons-row">
+        <button id="seven" value="7" class="calculator-button number">7</button>
+        <button id="eight" value="8" class="calculator-button number">8</button>
+        <button id="nine" value="9" class="calculator-button number">9</button>
+        <button id="multiply" value="*" class="calculator-button operator">
+          x
+        </button>
+      </div>
+      <div class="calculator-buttons-row">
+        <button id="four" value="4" class="calculator-button number">4</button>
+        <button id="five" value="5" class="calculator-button number">5</button>
+        <button id="six" value="6" class="calculator-button number">6</button>
+        <button id="plus" value="+" class="calculator-button operator">
+          +
+        </button>
+      </div>
+      <div class="calculator-buttons-row">
+        <button id="one" value="1" class="calculator-button number">1</button>
+        <button id="two" value="2" class="calculator-button number">2</button>
+        <button id="three" value="3" class="calculator-button number">3</button>
+        <button id="minus" value="-" class="calculator-button operator">
+          -
+        </button>
+      </div>
+      <div class="calculator-buttons-row">
+        <button id="zero" value="0" class="calculator-button number">0</button>
+        <button id="dot" value="." class="calculator-button number">.</button>
+        <button id="mod" value="%" class="calculator-button operator">%</button>
+        <button id="equal" class="calculator-button equal">=</button>
+      </div>
+    </section>
+  </body>
+</html>
