@@ -149,7 +149,7 @@ let highePrefEvaluate = (array) => {
         let a = array[keye - 1];
         let b = array[keye + 1];
         let res = a % b;
-        aarray.splice(keye - 1, 3, res);
+        array.splice(keye - 1, 3, res);
         console.log(array);
         console.log(`res = ${res}`);
         console.log(`item is ${higherpref[key]}}`);
