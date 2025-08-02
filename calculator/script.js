@@ -262,7 +262,7 @@ EqualButton.addEventListener("click", () => {
     calculatorInput.value != "%"
   ) {
     expressionArray.push(Number(calculatorInput.value));
-  }
+  
   highePrefEvaluate(expressionArray);
   lowerPrefEvaluate(expressionArray);
   console.log(expressionArray);
@@ -270,6 +270,7 @@ EqualButton.addEventListener("click", () => {
   higherpref = {};
   lowerpref = {};
   expressionArray = [];
+  }
 });
 
 //key board linking with buttons
